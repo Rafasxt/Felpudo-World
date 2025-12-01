@@ -28,4 +28,8 @@ public class LevelMenu : MonoBehaviour
         string levelName = "Fase " + levelId;
         SceneManager.LoadScene(levelName);
     }
+    public void AbrirFinal()
+    {
+        SceneManager.LoadScene("EncontrotFinal");
+    }
 }
