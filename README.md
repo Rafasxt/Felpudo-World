@@ -170,7 +170,7 @@ Objetos mortais que rolam com velocidade crescente.
 
 # 📦 Como Rodar o Projeto
 
-1. Instale **Unity 2022+**
+1. Instale **Unity 6000.2.6f2+**
 2. Clone ou baixe o repositório
 3. Abra no Unity Hub
 4. Execute a cena:
