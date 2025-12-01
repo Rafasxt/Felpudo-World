@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6591822658326749573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8110011720466190559}
+  - component: {fileID: 7425717636869276789}
+  m_Layer: 0
+  m_Name: DialogoInicial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8110011720466190559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6591822658326749573}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 713.6601, y: 286.17236, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7425717636869276789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6591822658326749573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58afac050061a074381fb2c57203bcc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem
+  falas:
+  - personagem: Felpudo
+    retrato: {fileID: 21300000, guid: e3d950f590dfc104386cc61937996db3, type: 3}
+    texto: "Fofura\u2026 voc\xEA desapareceu diante dos meus olhos."
+  - personagem: Felpudo
+    retrato: {fileID: 21300000, guid: e3d950f590dfc104386cc61937996db3, type: 3}
+    texto: "Estas penas douradas foram feitas pra voc\xEA... e agora est\xE3o espalhadas
+      por a\xED."
+  - personagem: Felpudo
+    retrato: {fileID: 21300000, guid: e3d950f590dfc104386cc61937996db3, type: 3}
+    texto: "Eu n\xE3o posso deixar que Uruca fique com elas."
+  - personagem: Uruca
+    retrato: {fileID: -585398311158557002, guid: 56594826768987e46a85a9634b161373, type: 3}
+    texto: "Hahaha\u2026 ainda tentando parecer her\xF3i, Felpudo?"
+  - personagem: Uruca
+    retrato: {fileID: -585398311158557002, guid: 56594826768987e46a85a9634b161373, type: 3}
+    texto: "Cada pena que voc\xEA encontra \xE9 s\xF3 uma lembran\xE7a do que perdeu."
+  - personagem: Uruca
+    retrato: {fileID: -585398311158557002, guid: 56594826768987e46a85a9634b161373, type: 3}
+    texto: "Voc\xEA jamais vai alcan\xE7\xE1-la."
+  - personagem: Felpudo
+    retrato: {fileID: 21300000, guid: e3d950f590dfc104386cc61937996db3, type: 3}
+    texto: "Pode rir agora\u2026"
+  - personagem: Felpudo
+    retrato: {fileID: 21300000, guid: e3d950f590dfc104386cc61937996db3, type: 3}
+    texto: Mas vou recuperar cada uma dessas penas.
+  - personagem: Felpudo
+    retrato: {fileID: 21300000, guid: e3d950f590dfc104386cc61937996db3, type: 3}
+    texto: "E quando chegar at\xE9 Fofura... ela saber\xE1 que nunca desisti dela."
+  - personagem: Felpudo
+    retrato: {fileID: 21300000, guid: e3d950f590dfc104386cc61937996db3, type: 3}
+    texto: "A primeira pista est\xE1 no topo dessa montanha."
+  - personagem: Felpudo
+    retrato: {fileID: 21300000, guid: e3d950f590dfc104386cc61937996db3, type: 3}
+    texto: "Se Uruca acha que isso vai me parar\u2026 est\xE1 muito enganado."
+  velocidadeTexto: 0.04
+  dialogBox: {fileID: 0}
+  portraitRect: {fileID: 0}
+  portraitImage: {fileID: 0}
+  dialogueText: {fileID: 0}
+  continueText: {fileID: 0}
+  posicaoEsquerda: {x: -410, y: 238}
+  posicaoDireita: {x: 410, y: 238}
