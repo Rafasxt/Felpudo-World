@@ -1407,7 +1407,7 @@ GameObject:
   - component: {fileID: 2065634761}
   - component: {fileID: 2065634762}
   m_Layer: 5
-  m_Name: Options Panel
+  m_Name: SelecaoFase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
