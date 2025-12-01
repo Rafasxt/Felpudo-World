@@ -8,13 +8,12 @@ public class PenaDourada : MonoBehaviour
             return;
 
         
-        FelpudoHUD hud = FindObjectOfType<FelpudoHUD>();
+        FelpudoHUD hud = FindFirstObjectByType<FelpudoHUD>();
         if (hud != null)
         {
             hud.AdicionarPena(1);
         }
 
-        
         Destroy(gameObject);
     }
 }
